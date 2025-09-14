@@ -1,0 +1,31 @@
+# OS / general
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Global env
+.env
+.env.*
+*.local
+
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Frontend (React)
+Frontend/node_modules/
+Frontend/build/
+Frontend/dist/
+Frontend/.env
+
+# Backend (Node.js)
+Server/node_modules/
+Server/.env
+Server/logs/
+Server/uploads/
